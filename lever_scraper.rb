@@ -51,4 +51,4 @@ lever_scraper = Scraper.new("https://jobs.lever.co/COMPANY NAME GOES HERE")
 lever_postings = lever_scraper.lever_postings
 lever_scraper.export_to_csv(lever_postings)
 # Now you should see the file lever_postings.csv in the same directory as this Ruby file.
-# Kudos to Ben Last for helping me get started with this.
+# Kudos to Ben Latz for helping me get started with this.
